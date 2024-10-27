@@ -30,6 +30,12 @@
      align-self: center; /*Esta propiedad proporpociona alineacion especifica a cada elemento, individual y/o en grupo  */
 }
 
+.menu__itens{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .menu__lista:nth-child(2),
 .menu__lista:nth-child(3),
 .menu__lista:nth-child(4){
@@ -61,10 +67,32 @@
     .cabecera__buscar__item{
         display: block;
     }
+
+    /* Menu lateral */
+     .menu__container{
+       left: 0;
+       height: auto;      
+       width: 74px;
+       top: 80px;
+     }
+
+     .menu__lista{
+        flex-direction: column;   
+    justify-content: flex-start;
+    padding-top: 15px;
+    gap: 33px;
+     }
+
+     .menu__lista li{
+        
+     }
     /* Footer */
     .rodapie__container{
         justify-content: space-between;
     }
+
+   
+
 
 }
 
