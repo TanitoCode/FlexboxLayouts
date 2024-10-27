@@ -12,6 +12,14 @@
     display: none;
 }
 
+/* Menu lateral */
+.menu__container{
+    position: fixed; /* Dejamos el menu fijo */
+    bottom: 0; /* Lo posicionamos al final */
+    height: 75px; /* Le damos la altura adecuada */
+    width: 100%; /* Ocupamos todo el ancho*/
+}
+
 /* Footer */
 .rodapie__container{
     display: flex;
@@ -28,6 +36,8 @@
      overflow: scroll;
      gap: 15px;
 }
+
+
 
 @media (min-width: 834px) {
     /* Header */
