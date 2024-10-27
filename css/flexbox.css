@@ -10,8 +10,15 @@
     display: none;
 }
 
+.rodapie__container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
 @media (min-width: 834px) {
     .cabecera__buscar__item{
         display: block;
     }
 }
+
