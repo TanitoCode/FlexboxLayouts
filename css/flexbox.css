@@ -1,3 +1,5 @@
+/* Header */
+
 .cabecera__container {
     display: flex;
     justify-content: space-between;
@@ -10,15 +12,25 @@
     display: none;
 }
 
+/* Footer */
 .rodapie__container{
     display: flex;
-    flex-direction: column;
-    
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
 }
 
+
+
 @media (min-width: 834px) {
+    /* Header */
     .cabecera__buscar__item{
         display: block;
     }
+    /* Footer */
+    .rodapie__container{
+        justify-content: space-between;
+    }
+
 }
 
