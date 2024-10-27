@@ -24,7 +24,7 @@
 .superior__seccion__container{
     display: flex;
     align-items: center;
-     white-space: nowrap; /*Tecnica para alinear, y no se quiere el texto */
+     white-space: nowrap; /*Tecnica para alinear, esto no permite que se quiebre el texto */
      overflow: scroll;
      gap: 15px;
 }
