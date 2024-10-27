@@ -20,7 +20,14 @@
     flex-flow: column wrap;
 }
 
-
+/* Seccion superior */
+.superior__seccion__container{
+    display: flex;
+    align-items: center;
+     white-space: nowrap; /*Tecnica para alinear, y no se quiere el texto */
+     overflow: scroll;
+     gap: 15px;
+}
 
 @media (min-width: 834px) {
     /* Header */
