@@ -22,6 +22,12 @@
 
 .menu__lista{
     display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.menu__lista li{
+     align-self: center; /*Esta propiedad proporpociona alineacion especifica a cada elemento, individual y/o en grupo  */
 }
 
 .menu__lista:nth-child(2),
