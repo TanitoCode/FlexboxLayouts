@@ -117,6 +117,20 @@
         gap: 15px;
     }
 
+    .menu__lista:nth-child(3) {
+        flex-direction: column-reverse;
+    }
+
+    .videojuegos{
+        order: 3;
+    }
+    .peliculas{
+        order: 2;
+    }
+    .premium {
+        order: 1;
+    }
+
     .menu__itens {
         flex-direction: row;
         gap: 15px;
