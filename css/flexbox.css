@@ -66,6 +66,11 @@
     gap: 15px;
 }
 
+/* Seccion videos */
+.videos__item{
+    height: 303px;
+    width: 280px;;
+}
 
 /* Dispositivo tablet */
 @media (min-width: 834px) {
